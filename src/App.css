@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color:  #05292E
+  ;
+}
+
+.banner-img{
+
+ width: 1440px;
+height: 372px;
+left: 0px;
+top: 0px;
+
+} 
+
+
+
+h1{
+  font-size: 100px;
+  color: #FFFFFF;
+  font-family: 'Roboto'
+}
+
+p{
+font-family: 'Roboto';
+font-style: normal;
+color: #FFFFFF;
+
+}
+
+p strong{
+
+width: 153px;
+height: 38px;
+left: 305px;
+top: 428px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+
+
+.card-text{
+  color: black;
+}
+
+.Character-Card{
+  display: inline;
+  display: inline-block;
+  font-family: 'Roboto';
+  width: 600px;
+  margin: 10px;
+ border-radius: 0px 0px 4px 4px; 
+ position: relative;
+} 
+
+
