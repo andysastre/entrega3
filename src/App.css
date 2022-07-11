@@ -16,7 +16,9 @@ top: 0px;
 
 } 
 
-
+h5{
+  color: #FFFFFF;
+}
 
 h1{
   font-size: 100px;
@@ -52,6 +54,7 @@ color: #FFFFFF;
 }
 
 
+
 .card-text{
   color: black;
 }
@@ -66,4 +69,12 @@ color: #FFFFFF;
  position: relative;
 } 
 
+.card-body p{
+  text-align: right;
+  color: #FFFFFF;
 
+}
+
+.main-div{
+  background-color:  #062226;
+}

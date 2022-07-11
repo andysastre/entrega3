@@ -12,6 +12,7 @@ function App() {
      <div className="App">
       
       <img src="https://c.tenor.com/3hIpHNbcVf4AAAAC/rick-and-morty-rick.gif" alt="" className='banner-img' />
+      
        <Card />
     </div>
   

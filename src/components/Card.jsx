@@ -42,7 +42,7 @@ const Card = () => {
                 <h3>  {data.name} </h3>
                 <p><strong>Type: </strong>{data.type} <strong>Dimension: </strong>{data.dimension} <strong>Population: </strong>{data.residents?.length}</p>
 
-                <ul>
+                <div>
                     {data.residents?.map((resident) => (
                         <Character resident={resident} key={resident} />
 
@@ -50,7 +50,7 @@ const Card = () => {
 
                     }
 
-                </ul>
+                </div>
             </div>
      
     );

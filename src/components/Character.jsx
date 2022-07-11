@@ -9,21 +9,21 @@ const Character = ({ resident }) => {
     const [status, setStatus] = useState(character.status)
     const thestatus = () =>{
 
-        if(status==="Dead"){
-            return(
-               setStatus(<p> <p className="card-text">Status: Dead </p></p>) 
-            )
+        // if(status==="Dead"){
+        //     return(
+        //        setStatus(<p> <p className="card-text">Status: Dead </p></p>) 
+        //     )
            
-        } else if(status==="unknow"){
-            return (   
-                <p> <p className="card-text">Status: Unknow </p></p>
-            )
+        // } else if(status==="unknow"){
+        //     return (   
+        //         <p> <p className="card-text">Status: Unknow </p></p>
+        //     )
 
-        } else (status==="Alive");{
-            return (
-                <p> <p className="card-text">Status: Alive </p></p>
-            )
-        }
+        // } else (status==="Alive");{
+        //     return (
+        //         <p> <p className="card-text">Status: Alive </p></p>
+        //     )
+        // }
 
     }
 
@@ -47,7 +47,7 @@ const Character = ({ resident }) => {
            <p>Origin: {character.origin?.name}</p>
            <p>Number of Episodes: {character.episode?.length}</p> */}
 
-           <div className="card mb-3" >
+           <div className="card mb-3 main-div" >
   <div className="row g-0 ">
     <div className="col-md-4 img-char">
       <img src={character.image} alt="" />
@@ -55,10 +55,11 @@ const Character = ({ resident }) => {
     <div className="col-md-8">
       <div className="card-body">
         <h5 className="card-title">{character.name}</h5>
-        <p className="card-text">Race: {character.species}</p>
-        <p className="card-text">Origin: {character.origin?.name}</p>
-        <p className="card-text">Appearance in episodes: {character.episode?.length}</p>
-        <p className="card-text">Status: {character.status}</p>
+        
+        <p className="card-text"><strong>Race:</strong>{character.species}</p>
+        <p className="card-text"><strong>Origin: </strong>{character.origin?.name}</p>
+        <p className="card-text"><strong>  Appearance in episodes:</strong> {character.episode?.length}</p>
+        <p className="card-text"><strong>Status: </strong> {character.status}</p>
         <p>{thestatus}</p>
 
        
